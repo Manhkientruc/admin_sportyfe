@@ -1,0 +1,53 @@
+@model admin_sportyfe.Controllers.CustomerDetail
+
+<div class="customer-detail">
+    <h2>CHI TIẾT KHÁCH HÀNG</h2>
+
+    <!-- Phần thông tin khách hàng -->
+    <div class="customer-info">
+        <div class="customer-profile">
+            <img src="/images/apt.png" alt="Profile" class="profile-pic" />
+            <h3>@Model.Name</h3>
+            <p>Khách hàng trong @Model.MembershipDuration</p>
+            <textarea>@Model.Notes</textarea>
+            <button class="btn btn-primary">Lưu</button>
+        </div>
+        <div class="customer-data">
+            <p>Thông tin liên hệ:</p>
+            <p>Email: @Model.Email</p>
+            <p>Điện thoại: @Model.Phone</p>
+            <p>Địa chỉ giao hàng: @Model.Address</p>
+        </div>
+    </div>
+
+    <!-- Phần đơn hàng đã đặt -->
+    <div class="customer-orders">
+        <h3>ĐƠN HÀNG ĐÃ ĐẶT</h3>
+        <input type="text" placeholder="Tìm kiếm đơn hàng" />
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã đơn</th>
+                    <th>Ngày</th>
+                    <th>Tình trạng</th>
+                    <th>Thành tiền</th>
+                    <th>Hóa đơn</th>
+                    <th>Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.Date</td>
+                        <td>@order.Status</td>
+                        <td>@String.Format("{0:C0}", order.Amount).Replace("$", "₫")</td>
+                        <td>@order.Invoice</td>
+                        <td>@order.Note</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

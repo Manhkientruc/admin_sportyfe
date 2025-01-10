@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function toggleSubMenu(event) {
+            const parentLi = event.target.parentElement;
+            parentLi.classList.toggle('open');
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .sidebar ul ul {
+            display: none;
+        }
+        .sidebar ul li.open ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="/">
+                <img src="/images/img_45.png" alt="Logo" style="width: 100%; height: auto; margin-bottom: 20px;" />
+            </a>
+            <ul>
+                <div>
+                    <a href="/Dashboard" class="profile-link">
+                        <i class="fa-solid fa-house" style="margin-right: 12px;"></i>
+                        <p style="display: inline; margin: 0;">Tổng quan</p>
+                    </a>
+                </div>
+                <li>
+                    <a class="toggle" onclick="toggleSubMenu(event)">👕 Quản lý sản phẩm</a>
+                    <ul>
+                        <li><a href="/Product">Danh sách sản phẩm</a></li>
+                        <li><a href="#">Chi tiết sản phẩm</a></li>
+                        <li><a href="/Product/Add">Thêm sản phẩm</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle" onclick="toggleSubMenu(event)">👜 Quản lý đơn hàng</a>
+                    <ul>
+                        <li><a href="#">Danh sách đơn hàng</a></li>
+                        <li><a href="#">Chi tiết đơn hàng</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle" onclick="toggleSubMenu(event)">👥 Khách hàng</a>
+                    <ul>
+                        <li><a href="/Customer">Danh sách khách hàng</a></li>
+                        <li><a href="/DetailCustomer">Chi tiết khách hàng</a></li>
+                        <li><a href="#">Thêm khách hàng</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">📨 Tin nhắn khách hàng</a></li>
+                <li><a href="#">🧾 Hóa đơn</a></li>
+                <li><a href="#">⚙️ Cài đặt</a></li>
+            </ul>
+            <div class="profile">
+                <a class="profile-link">
+                    <img src="/images/7 10.png" alt="Profile" class="profile-pic" />
+                    <a>Trang xink gái :></a>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

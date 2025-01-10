@@ -1,0 +1,30 @@
+@model List<admin_sportyfe.Models.Product>
+
+<h2>Product List</h2>
+<a href="/Product/Add" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add Product</a>
+<table class="product-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.tittle</td>
+                <td>@product.price</td>
+                <td>
+                    <img src="@product.image" alt="@product.tittle" style="width: 100px;" />
+                </td>
+                <td>
+                    <a href="/Product/Edit/@product.Id" class="btn btn-edit"><i class="fa-solid fa-scissors"></i> Edit</a> |
+                    <a href="/Product/Delete/@product.Id" class="btn btn-delete"><i class="fa-solid fa-trash"></i> Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

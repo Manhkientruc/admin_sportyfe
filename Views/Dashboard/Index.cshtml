@@ -1,0 +1,105 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard">
+    <div class="dashboard-row">
+        <!-- Doanh thu bán hàng -->
+        <div class="dashboard-item">
+            <h3>DOANH THU BÁN HÀNG <small>(Triệu VNĐ)</small></h3>
+            <canvas id="salesChart" width="600" height="300"></canvas>
+            <p class="text-right">6 ngày qua</p>
+        </div>
+        <script>
+            const ctx = document.getElementById('salesChart').getContext('2d');
+            const salesChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['31/12/2025', '01/01/2025', '02/01/2025', '03/01/2025', '04/01/2025', '05/01/2025'],
+                    datasets: [{
+                        label: 'Doanh thu',
+                        data: [20, 45, 30, 90, 70, 34], // Dữ liệu doanh thu
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false // Ẩn nhãn bên trên biểu đồ
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: {
+                                font: {
+                                    size: 12 // Cỡ chữ trục X
+                                }
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 20 // Chia mức y thành các bước 20
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+        <!-- Nhật ký hoạt động -->
+        @* <div class="dashboard-item">
+            <h3>Nhật Ký Hoạt Động</h3>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="margin-bottom: 20px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Email xác nhận đơn hàng #180820032</li>
+                <li style="margin-bottom: 20px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Nhận 1.000.000 VNĐ đang chờ xác nhận</li>
+                <li style="margin-bottom: 20px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Có một đơn hàng mới #2107200318082</li>
+            </ul>
+        </div> *@
+        <div class="dashboard-item">
+            <h3>Nhật Ký Hoạt Động</h3>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="margin-bottom: 5px; background-color: #d2edff; padding: 10px; border-radius: 10px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Email xác nhận đơn hàng #180820032</li>
+                <li style="margin-bottom: 5px; background-color: #d2edff; padding: 10px; border-radius: 10px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Nhận 1.000.000 VNĐ đang chờ xác nhận</li>
+                <li style="margin-bottom: 5px; background-color: #d2edff; padding: 10px; border-radius: 10px;"><i class="fa-regular fa-comment" style="font-size: 24px; margin-right: 5px;"></i> Sportyfe - Có một đơn hàng mới #2107200318082</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dashboard-row">
+        <!-- Sản phẩm bán chạy -->
+        <div class="dashboard-item">
+            <h3>Sản Phẩm Bán Chạy</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Đã bán</th>
+                        <th>Doanh số</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Áo thể thao Shiwit</td>
+                        <td>1.500.000</td>
+                        <td>100</td>
+                        <td>150.000.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tóm tắt doanh số -->
+        <div class="dashboard-item">
+            <h3>Tóm Tắt Doanh Số</h3>
+            <ul>
+                <li>Total Balance: 700,000,000 VNĐ</li>
+                <li>Total Expenses: 200,000,000 VNĐ</li>
+                <li>Total Income: 500,000,000 VNĐ</li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+@model admin_sportyfe.Models.Product
+
+<h2>Edit Product</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <!-- Input Hidden để gửi ID -->
+    <input type="hidden" asp-for="Id" />
+
+    <!-- Hiển thị tất cả lỗi validation -->
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Nhập Title -->
+    <div>
+        <label>Title:</label>
+        <input type="text" asp-for="tittle" class="form-control" />
+        <span asp-validation-for="tittle" class="text-danger"></span>
+    </div>
+
+    <!-- Nhập Price -->
+    <div>
+        <label>Price:</label>
+        <input type="number" asp-for="price" class="form-control" />
+        <span asp-validation-for="price" class="text-danger"></span>
+    </div>
+
+    <!-- Nhập Description -->
+    <div>
+        <label>Description:</label>
+        <textarea asp-for="description" class="form-control"></textarea>
+        <span asp-validation-for="description" class="text-danger"></span>
+    </div>
+
+    <!-- Chọn Category -->
+    <div>
+        <label>Category:</label>
+        <select asp-for="category" class="form-control">
+            <option value="Shirts">Shirts</option>
+            <option value="Pants">Pants</option>
+            <option value="Jackets">Jackets</option>
+        </select>
+        <span asp-validation-for="category" class="text-danger"></span>
+    </div>
+
+    <!-- Chọn Status -->
+    <div>
+        <label>Status:</label>
+        <select asp-for="status" class="form-control">
+            <option value="available">Available</option>
+            <option value="out_of_stock">Out of Stock</option>
+        </select>
+        <span asp-validation-for="status" class="text-danger"></span>
+    </div>
+
+    <!-- Hiển thị ảnh hiện tại -->
+    <div>
+        <label>Current Image:</label>
+        <div>
+            <img src="@Model.image" alt="Product Image" style="max-width: 200px; max-height: 200px;" />
+        </div>
+    </div>
+
+    <!-- Upload Image mới -->
+    <div>
+        <label>Change Image:</label>
+        <input type="file" asp-for="ImageFile" class="form-control" accept="image/*" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <br>
+    <!-- Nút Update -->
+    <button type="submit" class="btn btn-primary mt-3">Update</button>
+</form>

@@ -1,0 +1,32 @@
+@model List<admin_sportyfe.Controllers.Customer>
+
+<div class="customer-list">
+    <h2>Danh sách khách hàng</h2>
+    <table class="customer-table">
+        <thead>
+            <tr>
+                <th>Avatar</th>
+                <th>Tên khách hàng</th>
+                <th>Email</th>
+                <th>SĐT</th>
+                <th>Tỉnh/TP</th>
+                <th>Đơn hàng</th>
+                <th>Tổng chi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td><img src="/images/7 10.png" alt="Profile" class="profile-pic" /></td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>@customer.City</td>
+                    <td>@customer.Orders</td>
+                    <td>@String.Format("{0:C0}", customer.TotalSpent).Replace("$", "₫")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

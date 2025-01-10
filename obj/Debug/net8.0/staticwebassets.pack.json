@@ -1,0 +1,313 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\admin_sportyfe.bundle.scp.css",
+      "PackagePath": "staticwebassets\\admin_sportyfe.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\101.png",
+      "PackagePath": "staticwebassets\\images\\101.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\102.png",
+      "PackagePath": "staticwebassets\\images\\102.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\103.png",
+      "PackagePath": "staticwebassets\\images\\103.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\106f230c-1553-4054-9a1b-844152571489_ig_107.png",
+      "PackagePath": "staticwebassets\\images\\106f230c-1553-4054-9a1b-844152571489_ig_107.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\66fef1af-7ba3-43f2-8a1d-b3843fb4cf1d_z6213612669728_4642aeeb45a762ce0c44afbd43e8cce1.jpg",
+      "PackagePath": "staticwebassets\\images\\66fef1af-7ba3-43f2-8a1d-b3843fb4cf1d_z6213612669728_4642aeeb45a762ce0c44afbd43e8cce1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\7 10.png",
+      "PackagePath": "staticwebassets\\images\\7 10.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\7ef744a7-60ba-4a8f-be0e-ffaa0b7965c3.png",
+      "PackagePath": "staticwebassets\\images\\7ef744a7-60ba-4a8f-be0e-ffaa0b7965c3.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\c6b94efa-a65b-45d3-9ee9-c8014ea585d6_ig_118.png",
+      "PackagePath": "staticwebassets\\images\\c6b94efa-a65b-45d3-9ee9-c8014ea585d6_ig_118.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\cfdc725d-88c8-4a58-a61e-5ac0e0ed2bcd_z6213612687209_c0f40f08b7bf0bdfc964549a9af91d1b.jpg",
+      "PackagePath": "staticwebassets\\images\\cfdc725d-88c8-4a58-a61e-5ac0e0ed2bcd_z6213612687209_c0f40f08b7bf0bdfc964549a9af91d1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\d262bf53-57de-4601-a312-975a4894c0d7_z6213612687209_c0f40f08b7bf0bdfc964549a9af91d1b.jpg",
+      "PackagePath": "staticwebassets\\images\\d262bf53-57de-4601-a312-975a4894c0d7_z6213612687209_c0f40f08b7bf0bdfc964549a9af91d1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\e2553681-67cd-4e60-a5ee-3485e9612e08_z6213612669628_f9695cdcbfdafa08c4a1a39d9cc291f8.jpg",
+      "PackagePath": "staticwebassets\\images\\e2553681-67cd-4e60-a5ee-3485e9612e08_z6213612669628_f9695cdcbfdafa08c4a1a39d9cc291f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\images\\img_45.png",
+      "PackagePath": "staticwebassets\\images\\img_45.png"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\caoma\\Downloads\\admin_sportyfe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.admin_sportyfe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.admin_sportyfe.props",
+      "PackagePath": "build\\admin_sportyfe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.admin_sportyfe.props",
+      "PackagePath": "buildMultiTargeting\\admin_sportyfe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.admin_sportyfe.props",
+      "PackagePath": "buildTransitive\\admin_sportyfe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
